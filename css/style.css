@@ -1,0 +1,260 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+.dws{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box{
+    width: 0px;
+    height: 100px;
+    background: violet;
+    border-radius: 50px;
+    transition: 1s;
+}
+
+.pulse:hover .box{
+    width: 400px;
+}
+
+.pulse{
+    width: 100px;
+    height: 100px;
+    background: #00b43c;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 9px 0px #958888;
+    cursor: pointer;
+}
+
+.pulse:hover::before,
+.pulse:hover::after{
+    content: '';
+    position: absolute;
+    border: 3px solid #00b43c;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    border-radius: 100%;
+    box-shadow: 0 0 9px 0px #958888;
+    animation: pulse 1.5s infinite;
+    opacity: 0;
+}
+
+.pulse:hover::after{
+    animation-delay: 0.5s;
+}
+
+.phone{
+    position: absolute;
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    animation: phone 0.8s infinite;
+}
+
+.phone i {
+    transition: 0.5s;
+}
+
+.pulse:hover i{
+    transform: scale(0);
+}
+
+.text{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: absolute;
+    top: 35px;
+    left: 25px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.pulse:hover .text{
+    opacity: 1;
+}
+
+
+@keyframes phone {
+    0%, 100%{
+        transform: rotate(-20deg);
+    }
+    
+    50%{
+        transform: rotate(21deg);
+    }
+}
+
+
+@keyframes pulse {
+    0%{
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    
+    50%{
+        opacity: 1;
+    }   
+    
+    100%{
+        transform: scale(1.2);
+        opacity: 0;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 541px) {
+    
+    
+
+
+
+
+
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .dws{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .box{
+        width: 0px;
+        height: 100px;
+        background: violet;
+        border-radius: 50px;
+        transition: 1s;
+    }
+    
+    .pulse:hover .box{
+        width: 400px;
+    }
+    
+    .pulse{
+        width: 100px;
+        height: 100px;
+        background: #00b43c;
+        border-radius: 50%;
+        text-align: center;
+        color: white;
+        box-shadow: 0 0 9px 0px #958888;
+        cursor: pointer;
+    }
+    
+    .pulse:hover::before,
+    .pulse:hover::after{
+        content: '';
+        position: absolute;
+        border: 3px solid #00b43c;
+        top: -20px;
+        left: -20px;
+        right: -20px;
+        bottom: -20px;
+        border-radius: 100%;
+        box-shadow: 0 0 9px 0px #958888;
+        animation: pulse 1.5s infinite;
+        opacity: 0;
+    }
+    
+    .pulse:hover::after{
+        animation-delay: 0.5s;
+    }
+    
+    .phone{
+        position: absolute;
+        font-size: 50px;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        animation: phone 0.8s infinite;
+    }
+    
+    .phone i {
+        transition: 0.5s;
+    }
+    
+    .pulse:hover i{
+        transform: scale(0);
+    }
+    
+    .text{
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 900;
+        position: absolute;
+        top: 35px;
+        left: 25px;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    
+    .pulse:hover .text{
+        opacity: 1;
+    }
+    
+    
+    @keyframes phone {
+        0%, 100%{
+            transform: rotate(-20deg);
+        }
+        
+        50%{
+            transform: rotate(21deg);
+        }
+    }
+    
+    
+    @keyframes pulse {
+        0%{
+            transform: scale(0.5);
+            opacity: 0;
+        }
+        
+        50%{
+            opacity: 1;
+        }   
+        
+        100%{
+            transform: scale(1.2);
+            opacity: 0;
+        }
+    }
+
+
+
+
+
+
+
+
+    
+}
